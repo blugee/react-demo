@@ -1,0 +1,28 @@
+.text-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-label {
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.text-input {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 4em;
+    border: 2px solid #2aed8d;
+    outline: none;
+    background: transparent;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.error-label {
+    color: red;
+    margin-top: -17px;
+    margin-left: 14px;
+    padding-bottom: 19px;
+}

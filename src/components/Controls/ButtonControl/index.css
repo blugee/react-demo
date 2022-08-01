@@ -1,0 +1,24 @@
+.button-input-container {
+    text-align: center;
+    margin: 19px;
+}
+
+.btn-success {
+    width: 182px;
+    height: 50px;
+    font-size: 19px;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid #2afe94;
+    border-radius: 40px;
+    background: #2afe94;;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn-success:hover {
+    color: white;
+    background: black;
+    border: 2px solid #2afe94;
+  }
+  

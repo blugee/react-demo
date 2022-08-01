@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+
+.tab-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 270px;
+  margin: auto;
+  font-weight: 600;
+  font-size: 14px;
+  background: black;
+  align-items: center;
+  border-radius: 4em;
+}
+
+.tab {
+  cursor: pointer;
+  width: 130px;
+  color: white;
+  padding: 10px;
+}
+
+.tab.active {
+  color: black;
+  background: #2afe94;
+  padding: 10px;
+  border-radius: 4em;
+}
